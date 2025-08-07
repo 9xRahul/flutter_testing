@@ -54,4 +54,10 @@ void main() {
       expect(await calculator.powerOfTwo(3), 9);
     });
   });
+
+  group("Pi", () {
+    test("emits [3,3.1,3.14,3.141,3.1415]", () {
+      expect(calculator.pi(), emitsInOrder([3, 3.1, 3.14, 3.141, 3.1415]));
+    });
+  });
 }

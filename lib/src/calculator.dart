@@ -12,4 +12,6 @@ class Calculator {
   Future<double> powerOfTwo(double a) {
     return Future.delayed(Duration(seconds: 1), () => a * a);
   }
+
+  Stream<double> pi() => Stream.fromIterable([3, 3.1, 3.14, 3.141, 3.1415]);
 }
