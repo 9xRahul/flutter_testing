@@ -1,3 +1,6 @@
+
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -53,8 +56,6 @@ class _CalculatorAppState extends State<CalculatorApp> {
                   key: Key('reverse_button'),
                   style: ElevatedButton.styleFrom(
                     elevation: 4,
-                    backgroundColor: Colors.blue,
-                    foregroundColor: Colors.white,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(8),
                     ),
